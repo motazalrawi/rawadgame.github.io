@@ -131,7 +131,7 @@
     let sprites = ["anuke","router","hull","junction","shop","coin","banana","distributor","tntRouter"];
     let loadSprites = [];
     for(let i in sprites){
-      let object = {id: sprites[i], imagePath: `./assets/sprites/${sprites[i]}.png`};
+      let object = {id: sprites[i], imagePath: `${sprites[i]}.png`};
       loadSprites.push(object);
     };
     global.atlas.loadImages(loadSprites);
